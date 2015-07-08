@@ -14,4 +14,4 @@ Before anyone asks, yes I'm [aware](http://fabiorehm.com/blog/2014/09/11/running
 using pure X server or `docker exec` or `docker attach`, and while I'm certainly no expert, they work just fine. 
 However, we needed SSH/VNC for our use-case. 
 
-*There is no security on this container. NONE.* This also creates a sudoer-user `test` with the password `test`. 
+There is **no security whatsoever** on this container. It's intention is to be used within a build pipeline. There is a sudoer-user `test` with the password `test`. 
